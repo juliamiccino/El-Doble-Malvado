@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Marionetas S.A. - Aventura Gráfica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/titulo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#top">Marionetas S.A.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentación">Presentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produccion">Producción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desarrolladores">Desarrolladores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explorar">Contenido</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="top">
+        <div class="videoFondo">
+
+            <video autoplay muted loop class="bg-video">
+                <source src="img/fondo.mp4" type="video/mp4" />
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="textoFondo">
+                <img class="imgMarionetas" src="img/titulo.png" alt="Título Marionetas S.A." />
+                <p class="lead">Una aventura gráfica inspirada en el universo de Ray Bradbury.</p>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- INFORMACIÓN Y PROCESO -->
+    <section id="presentación">
+        <div class="container">
+            <h2 class="text-center mb-5">Presentación</h2>
+
+            <p class="mb-5 text-center">
+                Basada en “Marionetas S.A.” de Ray Bradbury, esta aventura gráfica retoma la historia de Braling, un hombre que usa una marioneta idéntica a él para escapar momentáneamente de su vida… hasta que su doble empieza a tomar decisiones propias. En esta aventura descubrirás los distintos desenlaces posibles de este inquietante relato, explorando cómo cambia el destino cuando el control —o la identidad— deja de estar en tus manos.
+            </p>
+        </div>
+
+        <div class="container" id="produccion">
+            <h2 class="text-center mb-5">Producción</h2>
+
+            <!-- Paso 1 -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-4 img-hover">
+                    <img src="img/proceso.png" class="img-fluid rounded" alt="Imagenes de la aventura gráfica" />
+                </div>
+                <div class="col-md-8">
+                    <h4>1. Desarrollo visual</h4>
+                    <p>
+                        Decidimos optar por una visual que acompañe la historia, las imágenes se oscurecen a medida que la historia lo hace. Los tonos azulados en las imágenes dan el toque de frialdad que creemos que la historia necesitaba.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-4 img-hover">
+                </div>
+                <div class="col-md-8">
+                    <h4>2. Estructura del código</h4>
+                    <p>
+                        Separamos nuestro código en texto botones y pantallas para facilitarnos el proceso de escribir el código, la utilización de arreglos nos ayudó a sintetizar porciones del código que de otra manera hubieran quedado extensas sin necesidad. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTEGRANTES -->
+    <section id="desarrolladores">
+        <div class="container">
+            <h2 class="text-center mb-4">Desarrolladores</h2>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Julia Miccino</h5>
+                            <p class="card-text">Me encargue de pensar al código por partes para la facilitación de su escritura y desarrollo. Además de pensar las posibles estéticas de la aventura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Matias Arias</h5>
+                            <p class="card-text">Me encargue del desarrollo del código y principalmente de la implementación de botones en las pantallas para sintetizar y facilitar la escritura del código</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPLORAR -->
+    <section id="explorar" class="my-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Contenido</h2>
+            <p class="mb-5 text-center">
+              Los invitamos a que exploren la historia grafica o al juego</p>
+            <div class="d-flex justify-content-center gap-3 my-4">
+
+<section id="Juego" class="seccion-juego seccion-estetica">
+            <div class="tpfinalparte1">
+            <iframe src="tpfinalparte1/index.html"></iframe>
+            </div>
+            </section>
+      <section class="integrantes seccion-estetica">
+            <h2>Integrantes del Proyecto</h2>
+            <div class="lista-integrantes">
+                <p>Julia Miccino</p>
+                <p>Matias Arias</p>
+            </div>
+        </section>
+
+    <section id="Juego" class="seccion-juego seccion-estetica">
+        <div class="col-12">
+            <div class="tpfinalparte1">
+            <iframe src="tpfinalparte2/index.html"></iframe>
+            </div>
+            </section>
+      <section class="integrantes seccion-estetica">
+            <h2>Integrantes del Proyecto</h2>
+            <div class="lista-integrantes">
+                <p>Julia Miccino</p>
+                <p>Matias Arias</p>
+            </div>
+        </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

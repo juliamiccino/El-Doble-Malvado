@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.videoFondo {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 600%;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    z-index: 0;
+}
+
+.textoFondo {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.imgMarionetas {
+    width: 350px;
+    max-width: 80vw;
+    height: auto;
+}
+
+
+.img-hover:hover img {
+    transform: scale(2);
+    transition: all 0.8s ease;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.card-title,
+.card-text {
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: rgba(171, 129, 110, 0.5);
+    border: none;
+    color: rgb(58, 40, 6);
+}
+
+.btn-primary:hover {
+    background-color: rgba(121, 93, 72, 0.5);
+}
