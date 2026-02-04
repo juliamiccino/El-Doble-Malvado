@@ -1,31 +1,47 @@
-
-        /* Night mode variables */
-body.night-mode {
-    --bs-primary: #a8a889;        /* Fondo principal oscuro */
-    --bs-secondary: #0a1042;      /* Fondo alternativo / tarjetas */
-    --bs-success: #D6C9A8;        /* Botones / bordes resaltados */
-    --bs-dark: #D8E3DF;           /* Texto claro sobre oscuro */
-
-    --bs-body-bg: var(--bs-primary);
-    --bs-body-color: var(--bs-dark);
-
-    /* Botones */
-    --bs-btn-bg: var(--bs-success);
-    --bs-btn-color: var(--bs-dark);
-    --bs-btn-border-color: var(--bs-success);
-    --bs-btn-hover-bg: var(--bs-dark);
-    --bs-btn-hover-border-color: var(--bs-dark);
-    --bs-btn-hover-color: var(--bs-primary);
-
-    /* Tarjetas */
-    --bs-card-bg: var(--bs-secondary);
-    --bs-card-color: var(--bs-dark);
-
-    /* Links / Navbar */
-    --bs-link-color: var(--bs-dark);
-    --bs-link-hover-color: var(--bs-success);
-
-    /* Body general */
-    background-color: var(--bs-body-bg);
-    color: var(--bs-body-color);
+:root {
+--bs-body-bg: #D6C9A8;     
+--bs-body-color: #1f2727; 
+--bs-secondary: #3d2512;    
+--bs-primary: #D8E3DF;      
 }
+
+body {
+background-color: var(--bs-body-bg);
+color: var(--bs-body-color);
+}
+
+
+.btn-primary {
+background-color: var(--bs-secondary);
+border-color: var(--bs-secondary);
+color: var(--bs-primary);
+font-weight: 600;
+transition: all 0.3s ease;
+}
+.btn-primary:hover {
+background-color: var(--bs-primary);
+border-color: var(--bs-primary);
+color: var(--bs-secondary);
+}
+
+nav {
+background-color: #7E5A3C;
+}
+
+a.nav-link {
+color: var(--bs-body-color) !important;
+}
+a.nav-link:hover {
+color: var(--bs-secondary) !important;
+}
+
+.card {
+background-color: #6c88c4; 
+color: var(--bs-body-color);
+}
+
+header .text-center {
+text-shadow: 1px 1px 6px rgba(184, 137, 67);
+}
+
+
