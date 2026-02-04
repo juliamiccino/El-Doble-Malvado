@@ -6,17 +6,14 @@
     <title>Marionetas S.A. - Aventura Gráfica</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/titulo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
 
-<body class="bg-body text-body night-mode">
-    <div class="container-fluid p-0">
+<body class="text-body">
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: var(--bs-secondary);">
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#top">Marionetas S.A.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,16 +29,13 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Header con video de fondo -->
         <header class="position-relative vw-100 vh-100 overflow-hidden">
-            <video autoplay muted loop playsinline
-                class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1">
+            <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1">
                 <source src="img/fondo.mp4" type="video/mp4">
             </video>
 
             <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center text-body">
-                <img class="img-fluid mb-3 w-75 w-md-50 w-lg-25" src="img/titulo.png" alt="Título Marionetas S.A." />
+                <img class="img-fluid rounded mb-3 w-75 w-md-50 w-lg-25" src="img/titulo.png" alt="Título Marionetas S.A." />
                 <p class="lead">
                     Una aventura gráfica inspirada en el universo de Ray Bradbury.
                 </p>
@@ -49,16 +43,12 @@
         </header>
 
         <div class="container py-5 px-2">
-
-            <!-- Sección Presentación -->
             <section id="presentación" class="mb-5">
                 <h2 class="text-center mb-5">Presentación</h2>
                 <p class="mb-5 text-center">
                     Basada en “Marionetas S.A.” de Ray Bradbury, esta aventura gráfica retoma la historia de Braling, un hombre que usa una marioneta idéntica a él para escapar momentáneamente de su vida… hasta que su doble empieza a tomar decisiones propias. En esta aventura descubrirás los distintos desenlaces posibles de este inquietante relato, explorando cómo cambia el destino cuando el control —o la identidad— deja de estar en tus manos.
                 </p>
             </section>
-
-            <!-- Sección Producción -->
             <section id="produccion" class="mb-5">
                 <h2 class="text-center mb-5">Producción</h2>
 
@@ -83,10 +73,8 @@
                         </p>
                     </div>
                 </div>
-
             </section>
 
-            <!-- Sección Desarrolladores -->
             <section id="desarrolladores" class="mb-5">
                 <h2 class="text-center mb-4">Desarrolladores</h2>
                 <div class="row g-4 justify-content-center">
@@ -114,8 +102,9 @@
                 <h2 class="mb-4">Contenido</h2>
                 <p class="mb-5">Los invitamos a que exploren la historia grafica</p>
                 <div class="d-flex justify-content-center gap-3 my-4">
-                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal1">Abrir Aventura
-                        Gráfica</button>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal1">
+                        Abrir Aventura Gráfica
+                    </button>
                 </div>
             </section>
 
@@ -124,7 +113,7 @@
         <!-- Modal -->
         <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
-                <div class="modal-content" style="background-color: var(--bs-secondary); border: none;">
+                <div class="modal-content bg-secondary border-0">
                     <div class="ratio ratio-16x9">
                         <iframe src="tpfinalparte1/index.html" allowfullscreen></iframe>
                     </div>
@@ -134,8 +123,7 @@
 
     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
-
