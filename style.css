@@ -1,34 +1,8 @@
-:root {
-            /* Colores principales de la paleta */
---bs-primary: #D8E3DF;        /* Fondo principal */
---bs-secondary: #D6C9A8;      /* Fondo alternativo / tarjetas */
---bs-success: #7E8F8B;        /* Color estructural / botones / bordes */
---bs-dark: #2F3A3A;           /* Texto principal / overlays / fondos oscuros */
 
-            /* Body */
---bs-body-bg: var(--bs-primary);
---bs-body-color: var(--bs-dark);
-
-            /* Botones */
---bs-btn-bg: var(--bs-success);
---bs-btn-color: var(--bs-primary);
---bs-btn-border-color: var(--bs-success);
---bs-btn-hover-bg: var(--bs-dark);
---bs-btn-hover-border-color: var(--bs-dark);
---bs-btn-hover-color: var(--bs-primary);
-
-            /* Tarjetas */
---bs-card-bg: var(--bs-secondary);
---bs-card-color: var(--bs-dark);
-
-            /* Links / Navbar */
---bs-link-color: var(--bs-dark);
---bs-link-hover-color: var(--bs-success);
-        }
         /* Night mode variables */
 body.night-mode {
-    --bs-primary: #2F3A3A;        /* Fondo principal oscuro */
-    --bs-secondary: #7E8F8B;      /* Fondo alternativo / tarjetas */
+    --bs-primary: #a8a889;        /* Fondo principal oscuro */
+    --bs-secondary: #0a1042;      /* Fondo alternativo / tarjetas */
     --bs-success: #D6C9A8;        /* Botones / bordes resaltados */
     --bs-dark: #D8E3DF;           /* Texto claro sobre oscuro */
 
